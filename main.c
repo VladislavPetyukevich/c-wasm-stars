@@ -1,7 +1,7 @@
-#define SCREEN_WIDTH 200
-#define SCREEN_HEIGHT 200
+#define SCREEN_WIDTH 640
+#define SCREEN_HEIGHT 480
 #define SCREEN_IMAGE_DATA_LENGTH SCREEN_WIDTH * SCREEN_HEIGHT * 4
-#define STARS_COUNT 200
+#define STARS_COUNT 300
 #define FLY_SPEED 66;
 
 static unsigned long int next = 1;
