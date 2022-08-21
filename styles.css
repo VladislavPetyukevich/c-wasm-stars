@@ -4,9 +4,3 @@ body {
   justify-content: center;
   background-color: black;
 }
-
-#main-canvas {
-  width: 640px;
-  image-rendering: pixelated;
-}
-
