@@ -1,0 +1,13 @@
+{
+  "name": "c-wasm-stars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-wasm": "./build.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
