@@ -1,4 +1,4 @@
-const wasmFile = await fetch('./main.wasm');
+const wasmFile = await fetch('./main-optimized.wasm');
 const wasmBuffer = await wasmFile.arrayBuffer();
 const wasmInstance = await WebAssembly.instantiate(wasmBuffer);
 const wasmMemory = new Uint8Array(wasmInstance.instance.exports.memory.buffer);
