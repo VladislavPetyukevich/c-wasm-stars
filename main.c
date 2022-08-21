@@ -87,7 +87,7 @@ Vector3 createRandVector3() {
   Vector3 vector3 = {
     .x = randInRange(-SCREEN_WIDTH / 2, SCREEN_WIDTH / 2),
     .y = randInRange(-SCREEN_HEIGHT / 2, SCREEN_HEIGHT / 2),
-    .z = randInRange(255 / 6, 255),
+    .z = randInRange(255 - 255 / 5, 255),
   };
   return vector3;
 }
