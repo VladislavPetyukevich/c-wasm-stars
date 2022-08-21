@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+#main-canvas {
+  width: 640px;
+  image-rendering: pixelated;
+}
+
